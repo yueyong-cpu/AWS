@@ -29,3 +29,8 @@
    
 ### 【實作題】  
 ### Q1：為root account創建MFA登入。  
+登入 Root Account：  
+在IAM Dashboard的第一個，點擊「新增MFA」
+多重驗證MFA裡點擊啟動MFA  
+在選擇要指派MFA裝置類型裡，點擊虛擬MFA裝置  
+啟動手機中的Google Authenticator並做綁定的動作  
