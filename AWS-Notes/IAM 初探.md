@@ -12,6 +12,7 @@ A：policy，最根本的規則，住要為attach到其他人身上
    role，虛擬的user，需要policy去給予權限，使其可以附加到特定的服務上
 
    Policy主要是以JSON的格式撰寫，如以下允許存取S3服務的
+   
    ex:
    * **Policy 格式範例**
    ```json
