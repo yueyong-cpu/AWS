@@ -1,3 +1,4 @@
+### 【問答題】  
 ### Q1：root user 跟 iam user 的差別？  
 **root user**：是使用者在AWS裡創建的第一個帳號，也被稱為根用戶，擁有最高的權限，一般情況下，root user都建議開啟MFA的認證，防範被盜用而燒錢  
 **IAM user**：  
