@@ -1,15 +1,15 @@
 ### Q1：root user 跟 iam user 的差別？  
 **root user**：是使用者在AWS裡創建的第一個帳號，也被稱為根用戶，擁有最高的權限，一般情況下，root user都建議開啟MFA的認證，防範被盜用而燒錢  
 **IAM user**：  
-    * 由 root user 或被授權的使用者所創建
-    * 登入需要：Account ID、Username、Password
-    * 預設沒有權限，需要被授權或加入 Group
+    * 由 root user 或被授權的使用者所創建  
+    * 登入需要：Account ID、Username、Password  
+    * 預設沒有權限，需要被授權或加入 Group  
 
 ### Q2：user, group, role, policy 之間的關係？  
-1. **Policy**：最根本的規則，主要為 attach 到其他人身上
-2. **User**：由特定Policy賦予權限的使用者
-3. **Group**：一群User的集合，讓裡面的人有共同權限
-4. **Role**：虛擬的User，讓服務（例如 EC2）可以取得權限
+1. **Policy**：最根本的規則，主要為 attach 到其他人身上  
+2. **User**：由特定Policy賦予權限的使用者  
+3. **Group**：一群User的集合，讓裡面的人有共同權限  
+4. **Role**：虛擬的User，讓服務（例如 EC2）可以取得權限  
 
    Policy主要是以JSON的格式撰寫，如以下允許存取S3服務的  
    ex:
